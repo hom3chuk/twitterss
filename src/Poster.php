@@ -49,7 +49,7 @@ class Poster
             $twitData = [];
             foreach ($this->config['feed-extract'] as $field => $pattern) {
                 if (0 < preg_match($pattern, $item->$field, $match)) {
-                    $twitData[] = $match[1];
+                    $twitData[] = html_entity_decode($match[1]);
                 }
             }
             if (!empty($twitData)) {
