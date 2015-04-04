@@ -1,0 +1,21 @@
+{
+  "name": "hom3chuk/twitterss",
+  "description": "Configurable twitter bot to post from RSSfeed",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugene Chekan",
+      "email": "hom3chuk@gmail.com"
+    }
+  ],
+  "require": {
+    "abraham/twitteroauth": "0.5.3",
+    "dg/rss-php": "v1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "hom3chuk\\twiterss\\": "src/"
+    }
+  }
+}
