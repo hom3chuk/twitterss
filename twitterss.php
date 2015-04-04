@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: hom3chuk
- * Date: 02.04.15
- * Time: 23:20
- */
+
+require_once 'src/Poster.php';
+require 'vendor/autoload.php';
+
+use \hom3chuk\twitterss\Poster;
+
+$twitterss = new Poster();
+
+$twitterss->post();
