@@ -2,7 +2,7 @@ twitterss is a simple PHP script to cross post RSS feed to the twitter. Posting 
 
 # Installation and usage
 
-```
+```bash
 git clone https://github.com/hom3chuk/twitterss.git #clone into sources
 cd twitterss #change directory
 composer install #install dependencies. If you do not have composer, go to https://getcomposer.org/download/
