@@ -1,4 +1,4 @@
-twitterss is a simple PHP script to cross post RSS feed to the twitter. Posting rules are made with regexps, so you can extract pretty anything from feed.
+twitterss is a simple PHP script to cross post RSS feed to the twitter (like [this one](https://twitter.com/php_odesk)). Posting rules are made with regexps, so you can extract pretty anything from feed.
 
 # Installation and usage
 
