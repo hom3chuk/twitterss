@@ -4,7 +4,7 @@
  */
 return [
     // URL of the feed
-    'feed-url' => 'https://www.upwork.com/ab/feed/jobs/rss?skills=php&amp;api_params=1',
+    'feed-url' => 'https://www.upwork.com/ab/feed/jobs/rss?skills=php&api_params=1',
 
     // Regexp to extract from RSS elements
     'feed-extract' => [
